@@ -1,0 +1,13 @@
+:root {
+	--header-height: 60px;
+}
+#header {
+	@apply inline-flex bg-main text-lshade;
+	height: var(--header-height);
+	width: 100vw;
+}
+
+#header button {
+	@apply bg-dshade text-white rounded mx-2 my-auto px-4 hover:brightness-75 transition-all;
+	height: 30px;
+}

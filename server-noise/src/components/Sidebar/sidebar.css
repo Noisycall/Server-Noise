@@ -1,0 +1,14 @@
+:root {
+	--width: 200px;
+}
+#sidebar {
+	@apply bg-laccent transition-all;
+	width: var(--width);
+	height: calc(100vh - var(--header-height));
+}
+.sidebar__button {
+	@apply text-white transition-all rounded m-2 text-lg p-1 bg-daccent hover:brightness-75;
+}
+.sidebar--hidden {
+	transform: translateX(calc(var(--width) / -2));
+}

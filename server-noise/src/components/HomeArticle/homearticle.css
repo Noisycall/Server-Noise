@@ -1,0 +1,9 @@
+article {
+	@apply bg-lshade text-dshade rounded-2xl m-5 p-5;
+	height: 250px;
+}
+article > header {
+	@apply font-semibold text-5xl mb-5;
+}
+article .content {
+}
