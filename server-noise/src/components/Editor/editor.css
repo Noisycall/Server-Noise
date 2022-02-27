@@ -1,0 +1,6 @@
+.editor{
+    @apply shadow-xl m-5 rounded-xl bg-white
+}
+.editor__container{
+    @apply bg-lshade p-5
+}
