@@ -67,12 +67,12 @@ showLastUpdated = false
 # dateFormat = "2006-01-02 3:04:06 PM MST"
 
 
-[params.twitter]
-# set Twitter handles for Twitter cards
-# see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-# do not include @
-creator = ""
-site = ""
+#[params.twitter]
+## set Twitter handles for Twitter cards
+## see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+## do not include @
+#creator = ""
+#site = ""
 
 [languages]
 [languages.en]
@@ -115,3 +115,7 @@ url = "/showcase"
 # replacements = "github.com/panr/hugo-theme-terminal/v4 -> themes/terminal"
 [[module.imports]]
 path = 'terminal'
+
+##
+[outputs]
+home = ['html','rss']
