@@ -11,6 +11,6 @@ readingTime = "1"
 hideComments = false
 +++
 
-Like any self respecting software engineer and reader, I too aspire to be venerated for my writing. Whether that be professionally in the form of code written and technical designs published; or in the form of prose written on this site.
+Like any self respecting software engineer and reader, I too aspire to be venerated for my writing. Whether that be professionally in the form of code written and technical designs published, or in the form of prose written on this site.
 
 Beyond delusions of grandeur however, this is mostly just an exercise in creative and technical writing. Along the way, if another soul benefits in some minuscule way from these words, that would be nice. 
